@@ -39,7 +39,7 @@ defmodule Mixpanel.Mixfile do
   end
 
   defp deps do
-    [{:httpoison, "~> 0.9"},
+    [{:httpoison, "~> 0.11.1"},
      {:poison, "~> 3.1"},
      {:credo, "~> 0.2", only: :dev},
      {:dogma, "~> 0.0", only: :dev},
